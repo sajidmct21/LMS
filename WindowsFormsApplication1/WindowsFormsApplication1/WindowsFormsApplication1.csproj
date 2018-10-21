@@ -94,6 +94,9 @@
     <EmbeddedResource Include="Add_Book_Form.resx">
       <DependentUpon>Add_Book_Form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Issue_Book_Form.resx">
+      <DependentUpon>Issue_Book_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lgin.resx">
       <DependentUpon>Lgin.cs</DependentUpon>
     </EmbeddedResource>

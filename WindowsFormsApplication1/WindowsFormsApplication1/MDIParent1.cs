@@ -132,5 +132,11 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void issueBookToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Issue_Book_Form ibf = new Issue_Book_Form();
+            ibf.Show();
+        }
     }
 }

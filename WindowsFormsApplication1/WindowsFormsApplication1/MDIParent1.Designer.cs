@@ -35,10 +35,11 @@
             this.searchBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.studentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addStudentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewStudentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.viewStudentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.issueBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -58,7 +59,8 @@
             // 
             this.booksToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addBookToolStripMenuItem,
-            this.searchBookToolStripMenuItem});
+            this.searchBookToolStripMenuItem,
+            this.issueBookToolStripMenuItem});
             this.booksToolStripMenuItem.Name = "booksToolStripMenuItem";
             this.booksToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.booksToolStripMenuItem.Text = "Books";
@@ -90,9 +92,16 @@
             // addStudentToolStripMenuItem
             // 
             this.addStudentToolStripMenuItem.Name = "addStudentToolStripMenuItem";
-            this.addStudentToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.addStudentToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.addStudentToolStripMenuItem.Text = "Add Student";
             this.addStudentToolStripMenuItem.Click += new System.EventHandler(this.addStudentToolStripMenuItem_Click);
+            // 
+            // viewStudentsToolStripMenuItem
+            // 
+            this.viewStudentsToolStripMenuItem.Name = "viewStudentsToolStripMenuItem";
+            this.viewStudentsToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.viewStudentsToolStripMenuItem.Text = "View Students";
+            this.viewStudentsToolStripMenuItem.Click += new System.EventHandler(this.viewStudentsToolStripMenuItem_Click);
             // 
             // statusStrip
             // 
@@ -110,12 +119,12 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(39, 17);
             this.toolStripStatusLabel.Text = "Status";
             // 
-            // viewStudentsToolStripMenuItem
+            // issueBookToolStripMenuItem
             // 
-            this.viewStudentsToolStripMenuItem.Name = "viewStudentsToolStripMenuItem";
-            this.viewStudentsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.viewStudentsToolStripMenuItem.Text = "View Students";
-            this.viewStudentsToolStripMenuItem.Click += new System.EventHandler(this.viewStudentsToolStripMenuItem_Click);
+            this.issueBookToolStripMenuItem.Name = "issueBookToolStripMenuItem";
+            this.issueBookToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.issueBookToolStripMenuItem.Text = "Issue Book";
+            this.issueBookToolStripMenuItem.Click += new System.EventHandler(this.issueBookToolStripMenuItem_Click);
             // 
             // MDIParent1
             // 
@@ -149,6 +158,7 @@
         private System.Windows.Forms.ToolStripMenuItem studentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addStudentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem viewStudentsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem issueBookToolStripMenuItem;
     }
 }
 
